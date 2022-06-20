@@ -1,0 +1,33 @@
+.wrapper {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin: 40px 0 40px;
+}
+.header h1 {
+  display: inline;
+  font-size: 3.2em;
+  background: linear-gradient(to right, #3ab4fb, 50%, #67ffc7);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+.footer a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #fff;
+  background: linear-gradient(to right, #bc3aac, 66%, #9735ed);
+}
+.footer h6 {
+  padding: 0;
+  margin: 20px 0 0;
+  font-weight: normal;
+}
