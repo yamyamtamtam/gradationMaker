@@ -87,7 +87,8 @@ const GradationComponent = (props: Props) => {
   return (
     <article>
       <code className={Style.code}>
-        background: linear-gradient(to right,{hexstart},{midpoint},{hexend})
+        background: linear-gradient(to right,{hexstart},
+        <span data-testid="midpoint">{midpoint}</span>,{hexend})
       </code>
       <div
         ref={gradationWidth}
